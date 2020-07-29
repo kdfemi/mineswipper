@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+body {
+    background-color: whitesmoke;
+}
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(196, 74, 74);
+    border: 5px outset rgb(206, 204, 204);
+    box-shadow: 5px -3px 5px 0px #000000a1;
+    border-collapse: collapse;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px inset rgb(206, 204, 204);
+    font-weight: bold;
+    font-size: 23px;
+    color:rgb(92, 92, 228);
+}
+.checked {
+    background-color: rgb(224, 217, 217);
+}
+.game-over {
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(235, 33, 33);
+}
+button {
+    outline: none;
+    color: white;
+    background-color: rgb(196, 74, 74);
+    border: none;
+    line-height: 2;
+    width: 25%;
+}
+button:hover {
+    color: rgb(196, 74, 74);
+    background-color: white;
+    outline: 1px solid rgb(196, 74, 74);
+
+}
